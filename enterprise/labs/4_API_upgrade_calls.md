@@ -2,8 +2,6 @@
 $ curl -u ale966:cloudera http://localhost:7180/api/version
 v14
 
-$ curl  -u ale966:cloudera http://localhost:7180/api/users
-
 $ curl  -u ale966:cloudera http://localhost:7180/api/v14/users
 {
   "items" : [ {
