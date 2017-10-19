@@ -1,6 +1,8 @@
+```
 [centos@sebcm ~]$ sysctl vm.swappiness
 vm.swappiness = 1
-
+```
+```
 [centos@sebcm ~]$ mount
 sysfs on /sys type sysfs (rw,nosuid,nodev,noexec,relatime)
 proc on /proc type proc (rw,nosuid,nodev,noexec,relatime)
@@ -31,12 +33,16 @@ mqueue on /dev/mqueue type mqueue (rw,relatime)
 tmpfs on /run/user/1000 type tmpfs (rw,nosuid,nodev,relatime,size=1497296k,mode=700,uid=1000,gid=1000)
 
 Note: no non root fs non XFS
+```
 
+```
 [centos@sebcm ~]$ cat /sys/kernel/mm/transparent_hugepage/enabled
 always madvise [never]
 [centos@sebcm ~]$ cat /sys/kernel/mm/transparent_hugepage/defrag
 always madvise [never]
 
+```
+```
 [centos@sebcm ~]$ cat /etc/hosts
 127.0.0.1   localhost localhost.localdomain localhost4 localhost4.localdomain4
 ::1         localhost localhost.localdomain localhost6 localhost6.localdomain6
@@ -74,6 +80,8 @@ always madvise [never]
 172.22.56.64    sebcw2.hadoop sebcw2
 172.22.126.27   sebcw3.hadoop sebcw3
 
+```
+```
 [centos@sebcm ~]$ systemctl status nscd
 ● nscd.service - Name Service Cache Daemon
    Loaded: loaded (/usr/lib/systemd/system/nscd.service; enabled; vendor preset: disabled)
@@ -116,3 +124,4 @@ ott 16 16:22:20 sebcm.hadoop ntpd[681]: 0.0.0.0 c614 04 freq_mode
 ott 16 16:22:22 sebcm.hadoop ntpd[681]: 0.0.0.0 c618 08 no_sys_peer
 Hint: Some lines were ellipsized, use -l to show in full.
 [centos@sebcm ~]$ 
+```
