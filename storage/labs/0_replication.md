@@ -1,3 +1,4 @@
+```
 [hdfs@sebcm ~]$ hdfs fsck /user/ale966 -files -blocks 
 Connecting to namenode via http://sebcm.hadoop:50070
 FSCK started by hdfs (auth:SIMPLE) from /172.22.164.97 for path /user/ale966 at Tue Oct 17 08:08:09 EDT 2017
@@ -32,10 +33,8 @@ FSCK ended at Tue Oct 17 08:08:09 EDT 2017 in 2 milliseconds
 
 
 The filesystem under path '/user/ale966' is HEALTHY
-
-
-
-
+```
+```
 [hdfs@sebcm ~]$ hdfs fsck /user/g0dj4ck4l -files -blocks 
 Connecting to namenode via http://sebcm.hadoop:50070
 FSCK started by hdfs (auth:SIMPLE) from /172.22.164.97 for path /user/g0dj4ck4l at Tue Oct 17 07:59:31 EDT 2017
@@ -71,3 +70,4 @@ FSCK ended at Tue Oct 17 07:59:31 EDT 2017 in 3 milliseconds
 
 The filesystem under path '/user/g0dj4ck4l' is HEALTHY
 
+```

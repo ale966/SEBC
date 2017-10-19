@@ -1,3 +1,4 @@
+```
 [ale966@sebcm ~]$ hdfs dfs -mkdir /user/ale966/precious
 
 [ale966@sebcm ~]$ hdfs dfs -put /tmp/SEBC-master.zip /user/ale966/precious/
@@ -27,4 +28,5 @@ rmdir: The directory /user/ale966/precious cannot be deleted since /user/ale966/
 [ale966@sebcm ~]$ hdfs dfs -ls /user/ale966/precious
 Found 1 items
 -rw-r--r--   3 ale966 ale966     450893 2017-10-17 09:51 /user/ale966/precious/SEBC-master.zip
+```
 
