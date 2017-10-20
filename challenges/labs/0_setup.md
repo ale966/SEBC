@@ -1,15 +1,15 @@
-** List the cloud provider you are using (AWS, GCE, Azure, other) **
+**List the cloud provider you are using (AWS, GCE, Azure, other)**
 ```
 AWS
 ```
 
-** List the Linux release you have chosen **
+**List the Linux release you have chosen**
 ```
 CentOS Linux release 7.2.1511 (Core) 
 ```
 
 
-** Show that the disk space on each node is at least 30 GB **
+**Show that the disk space on each node is at least 30 GB**
 ```
 [root@chale ~]# df -h
 Filesystem               Size  Used Avail Use% Mounted on
@@ -63,7 +63,7 @@ tmpfs                    1.5G     0  1.5G   0% /run/user/1000
 
 ```
 
-** List the command and output for yum repolist enabled **
+**List the command and output for yum repolist enabled**
 
 ```
 [root@chale ~]# yum repolist enabled
@@ -127,12 +127,12 @@ updates/7/x86_64                    CentOS-7 - Updates                      741
 repolist: 10,559
 
 ```
-** List the /etc/passwd entries for ernest and siwicki in your setup file **
+**List the /etc/passwd entries for ernest and siwicki in your setup file**
 ```
 ernest:x:2000:2000::/home/ernest:/bin/bash
 siwicki:x:3000:3000::/home/siwicki:/bin/bash
 ```
-** List the /etc/group entries for usa and emea in your setup file **
+**List the /etc/group entries for usa and emea in your setup file**
 ```
 usa:x:3001:ernest
 emea:x:3002:siwicki
