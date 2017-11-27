@@ -19,3 +19,4 @@ Found 7 items
 -rw-r--r--   3 ernest usa  853333300 2017-10-20 06:23 /user/ernest/tgen512m/part-m-00004
 -rw-r--r--   3 ernest usa  853333300 2017-10-20 06:23 /user/ernest/tgen512m/part-m-00005
 ```
+.
